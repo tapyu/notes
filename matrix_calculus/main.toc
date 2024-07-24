@@ -1,0 +1,63 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Curated reference list}{3}{subsection.1.1}%
+\contentsline {part}{I\hspace {1em}Theory}{4}{part.1}%
+\contentsline {section}{\numberline {2}Notation and nomeclatures}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Jacobian formulation (numerator layout)}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Vector-vector, scalar-vector, and vector-scalar derivatives}{5}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Matrix-scalar derivative (tangent matrix)}{5}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Scalar-matrix derivative (gradient matrix)}{5}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Row vector-scalar and scalar-row vector derivatives}{5}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}Jacobian matrix for the numerator layout}{6}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.6}Hessian matrix for the numerator layout}{7}{subsubsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.2}Hessian formulation (denominator layout)}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Vector-vector, scalar-vector, and vector-scalar derivatives}{8}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Matrix-scalar derivative (tangent matrix)}{9}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Scalar-matrix derivative (gradient matrix)}{9}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Row vector-scalar and scalar-row vector derivatives}{9}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}The Jacobian matrix for the denominator layout}{10}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.6}The Hessian matrix for the denominator layout}{11}{subsubsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.3}Comparative between Jacobian and Hessian formulations}{11}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Notations not widely agreed upon}{12}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}On the ambiguity over the notation \(\nabla ^2\)}{12}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Identities}{13}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Chain rule}{13}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Univariate functions}{13}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Multivariate functions}{13}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Sum (or minus) rule}{14}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Vector-vector derivative}{14}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Matrix-scalar derivative}{14}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Scalar-matrix derivative}{14}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Product rule}{14}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Vector-vector derivative}{14}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Scalar-vector derivative}{14}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Scalar-matrix derivative}{15}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Matrix-scalar derivative}{15}{subsubsection.3.3.4}%
+\contentsline {section}{\numberline {4}Unconstrained optimization algorithms}{15}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Taylor Series}{15}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}The Steepest Descent algorithm}{15}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Newton's Method}{15}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}The Gauss-Newton Method}{15}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}The Levenberg-Marquardt Method.}{15}{subsection.4.5}%
+\contentsline {part}{II\hspace {1em}Manual Solution}{15}{part.2}%
+\contentsline {section}{\numberline {5}Differentiation solutions}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}\(\dfrac {\partial \mathbf {A} \mathbf {x}}{\partial \mathbf {x}} = \mathbf {A}^\top \)}{16}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}\(\dfrac {\partial \mathbf {x}^\top \mathbf {A}}{\partial \mathbf {x}} = \mathbf {A}\)}{16}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}\(\dfrac {\partial \mathbf {A} \mathbf {x}}{\partial \mathbf {v}} = \dfrac {\partial \mathbf {x}}{\partial \mathbf {v}} \mathbf {A}^\top \)}{16}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}\(\dfrac {\partial \mathbf {a}^\top \mathbf {x}}{\partial \mathbf {x}} = \mathbf {a}\)}{17}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}\(\dfrac {\partial \mathbf {x}^\top \mathbf {a}}{\partial \mathbf {x}} = \mathbf {a}\)}{17}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}\(\dfrac {\partial \mathbf {a}^\mathsf {H}\mathbf {x}}{\partial \mathbf {x}} = \mathbf {a}^*\)}{18}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}\(\dfrac {\partial \mathbf {z}^\mathsf {H}\mathbf {a}}{\partial \mathbf {z}} = \mathbf {0}\)}{19}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}\(\dfrac {\partial \mathbf {z}^\mathsf {H}\mathbf {a}}{\partial \mathbf {z}^*} = \mathbf {a}\)}{19}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}\(\dfrac {\partial \mathbf {x}^\top \mathbf {y}}{\partial \mathbf {v}} = \dfrac {\partial \mathbf {x}}{\partial \mathbf {v}}\mathbf {y} + \dfrac {\partial \mathbf {y}}{\partial \mathbf {v}}\mathbf {x}\)}{20}{subsection.5.9}%
+\contentsline {subsection}{\numberline {5.10}\(\dfrac {\partial \mathbf {x}^\top \mathbf {x}}{\partial \mathbf {x}} = 2\mathbf {x}\)}{21}{subsection.5.10}%
+\contentsline {subsection}{\numberline {5.11}\(\dfrac {\partial \mathbf {x}^\top \mathbf {x}}{\partial \mathbf {v}} = 2\dfrac {\partial \mathbf {x}}{\partial \mathbf {v}}\mathbf {x}\)}{22}{subsection.5.11}%
+\contentsline {subsection}{\numberline {5.12}\(\dfrac {\partial \mathbf {x}^\top \mathbf {A} \mathbf {x}}{\partial \mathbf {x}} = \left (\mathbf {A}^\top + \mathbf {A}\right ) \mathbf {x}\)}{22}{subsection.5.12}%
+\contentsline {subsection}{\numberline {5.13}\(\dfrac {\partial \mathbf {x}^\top \mathbf {A} \mathbf {x}}{\partial \mathbf {v}} = \dfrac {\partial \mathbf {x}}{\partial \mathbf {v}}\left ( \mathbf {A} + \mathbf {A}^\top \right ) \mathbf {x}\)}{24}{subsection.5.13}%
+\contentsline {subsection}{\numberline {5.14}\(\dfrac {\partial \mathbf {b}^\top \mathbf {A} \mathbf {x}}{\partial \mathbf {x}} = \mathbf {A}^\top \mathbf {b}\)}{25}{subsection.5.14}%
+\contentsline {subsection}{\numberline {5.15}\(\dfrac {\partial \mathbf {x}^\top \mathbf {A} \mathbf {b}}{\partial \mathbf {x}} = \mathbf {Ab}\)}{26}{subsection.5.15}%
+\contentsline {subsection}{\numberline {5.16}\(\dfrac {\partial \mathbf {y}^\top \mathbf {A} \mathbf {x}}{\partial \mathbf {v}} = \dfrac {\partial \mathbf {x}}{\partial \mathbf {v}} \mathbf {A}^{\top } \mathbf {y} + \dfrac {\partial \mathbf {y}}{\partial \mathbf {v}} \mathbf {A} \mathbf {x}\)}{27}{subsection.5.16}%
+\contentsline {subsection}{\numberline {5.17}\(\dfrac {\partial \tr (\mathbf {A} \mathbf {X})}{\partial \mathbf {X}} = \dfrac {\partial \tr (\mathbf {X} \mathbf {A})}{\partial \mathbf {X}} = \mathbf {A}^\top \)}{28}{subsection.5.17}%
+\contentsline {subsection}{\numberline {5.18}\(\dfrac {\partial \tr (\mathbf {XAX}^\top )}{\partial \mathbf {X}} = 2\mathbf {XA}\)}{29}{subsection.5.18}%
+\contentsline {subsection}{\numberline {5.19}\(\dfrac {\partial \abs {\mathbf {X}}}{\partial \mathbf {X}} = \ensuremath {\textnormal {adj}\left (\mathbf {X}\right )}\)}{30}{subsection.5.19}%
+\contentsline {subsection}{\numberline {5.20}\(\dfrac {\partial \mathbf {A}^{-1}}{\partial \alpha } = - {\left ( \mathbf {A}^{-1} \right )}^{\top } \dfrac {\partial \mathbf {A}}{\partial \alpha } {\left ( \mathbf {A}^{-1} \right )}^{\top }\)}{30}{subsection.5.20}%

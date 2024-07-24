@@ -1,0 +1,57 @@
+\documentclass{article}
+\pagenumbering{gobble}
+
+% redefine \maketitle
+\makeatletter % changes the catcode of @ to 11
+\def\@maketitle{%
+  \newpage
+  \null
+  \vskip 2em%
+  \begin{center}%
+  \let \footnote \thanks
+    {\LARGE \@title \par}%
+    \vskip 1.5em%
+    {\large
+      \lineskip .5em%
+      \begin{tabular}[t]{c}%
+        \@author\\
+      \end{tabular}\par}%
+    \vskip 1em%
+    {\large {\tt Version:}\@date}%
+  \end{center}%
+  \par
+  \vskip 1.5em}
+\makeatother % changes the catcode of @ back to 12
+
+\usepackage{authblk}
+\input{default_preamble.tex}
+\usepackage{esint}
+\usepackage{bm}
+\NewDocumentCommand{\nossekE}{O{} m}{\ensuremath{\operatorname{\bf E}_{#1}\left[#2\right]}} % statistical expectation operator, e.g., \E[u]{x} or \E{x}
+\addbibresource{local_ref.bib}
+
+\begin{document}
+\title{\textbf{Notation}  \vspace{-.3cm}}
+\author{Rubem Vasconcelos Pacelli\\
+{\tt rubem.engenharia@gmail.com}}
+\affil{Department of Teleinformatics Engineering,\\Federal University of Ceará.\\Fortaleza, Ceará, Brazil. \vspace{-.5cm}}
+\maketitle
+
+\tableofcontents
+\newpage
+
+\input{sections/font.tex}
+\input{sections/signals-and-functions.tex}
+\input{sections/prob-stats-stoachastic-proc.tex}
+\input{sections/ml-opt-ssp.tex}
+\input{sections/linear-algebra.tex}
+\input{sections/comm-syst.tex}
+\input{sections/discrete-mathematics.tex}
+\input{sections/vector-calculus.tex}
+\input{sections/electromagnetic-waves.tex}
+\input{sections/others.tex}
+\input{sections/abbreviations.tex}
+
+\printbibliography
+
+\end{document}
