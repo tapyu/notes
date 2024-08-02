@@ -1,4 +1,4 @@
-\section{Notation and nomeclatures}
+\section{Notation and layouts}
 \label{sec:notation}
 
 Let
@@ -10,7 +10,7 @@ Let
         a_{m1} & a_{m2} & \dots & a_{mn} \\
     \end{bmatrix} \in \mathbb{R}^{m \times n}
 \end{align}
-be a complex matrix with dimension equal to \(m \times n\), where \(a_{ij} \in \mathbb{R}\) is its element in the position \((i,j)\). Similarly, a complex vector is defined by
+be a real-valued matrix with dimension equal to \(m \times n\), where \(a_{ij} \in \mathbb{R}\) is its element in the position \((i,j)\). Similarly, a complex vector is defined by
 \begin{align}
     \mathbf{x} = \begin{bmatrix}
         x_1 \\
@@ -317,7 +317,7 @@ where \(f: \mathbb{R}^{n} \rightarrow \mathbb{R}\) and \(\mathbf{x} \in \mathbb{
 \end{align}
 where element \(\partial\mathbf{x}^2\) is merely a shorthand for \(\partial\mathbf{x}\partial\mathbf{x}^\top\). However, it might not be recommended as it makes the notation even more confusing.
 
-\subsection{Comparative between Jacobian and Hessian formulations}
+\subsection{Comparative between numerator and denominator layouts}
 
 As you may have noticed,
 \begin{align}
@@ -328,7 +328,7 @@ As you may have noticed,
 \end{align}
 where that last equation can be inferred from the discussion about the Hessian matrix.
 
-That is the difference when you try to differentiate without paying attention to which representation the author adopted. The good news is that, as long as you differentiate it correctly, you can switch between the Jacobian and Hessian formulations by simply transposing the final result. Fortunately, the denominator layout is the most adopted by authors from areas related to Signal Processing, Machine Learning, and Optimization Theory. That is why we will focus on the denominator layout hereafter (the notation \(\left[\cdot\right]_{\textnormal{Den}}\) will be dropped out since we do not need it anymore). % \footnote{First, you should apply \(\left[\cdot\right]_{\textnormal{Den}} = \left[\cdot\right]_{\textnormal{Num}}^{\trans}\) on partial derivatives that you get in the solution. Then, you apply the transpose to the whole solution.}
+That is the difference when you try to differentiate without paying attention to which representation the author adopted. The good news is that, as long as you differentiate it correctly, you can switch between the numerator and denominator layout by simply transposing the final result. Fortunately, the denominator layout is the most adopted by authors from areas related to Signal Processing, Machine Learning, and Optimization Theory. That is why we will focus on the denominator layout hereafter (the notation \(\left[\cdot\right]_{\textnormal{Den}}\) will be dropped out since we do not need it anymore). % \footnote{First, you should apply \(\left[\cdot\right]_{\textnormal{Den}} = \left[\cdot\right]_{\textnormal{Num}}^{\trans}\) on partial derivatives that you get in the solution. Then, you apply the transpose to the whole solution.}
 
 By adopting the denominator layout, keep in mind that:
 \begin{itemize}
@@ -393,4 +393,4 @@ Vector Calculus is another branch of Mathematics that deals with differentiation
     \nabla^2 f = \nabla \cdot \nabla f = \dfrac{\partial f}{\partial x_1} + \dfrac{\partial f}{\partial x_2} + \dots \dfrac{\partial f}{\partial x_n}
     \label{eq:laplace-transforms}
 \end{align}
-denotes the so-called Laplacian operator, where \(\cdot\) is the dot or inner product. The equations \eqref{eq:H-nabla} and \eqref{eq:laplace-transforms} have the same notations but refer to different operations. That is a problem! Since Vector Calculus is far enough from Matrix Calculus in many applications, the notation \(\nabla^2 f\) is used in both fields without problems. However, when this is not the case, the notation \(\nabla^2 f\) must be avoided to denote the Hessian matrix. Other authors, such as Bishop \cite{bishopPatternRecognitionMachine2006}, use \(\nabla \nabla f\), which might be a way out to disambiguate it.
+denotes the so-called Laplacian operator, where \(\cdot\) is the dot or inner product. The equations \eqref{eq:H-nabla} and \eqref{eq:laplace-transforms} have the same notations but refer to different operations. This is a problem! Since Vector Calculus is far enough from Matrix Calculus in many applications, the notation \(\nabla^2 f\) is used in both fields without problems. However, when this is not the case, the notation \(\nabla^2 f\) must be avoided to denote the Hessian matrix. Other authors, such as Bishop \cite{bishopPatternRecognitionMachine2006}, use \(\nabla \nabla f\) for the Hesian matrix, which might be a way out to disambiguate it.
