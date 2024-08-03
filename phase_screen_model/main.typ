@@ -34,11 +34,11 @@
   date: "May 16, 2023",
 )
 
-= GNSS measurement models
+= Modeling the scintillation impairment in GNSS measurements
 
-Let us start with the most fundamental concept in GNSS: the time that the satellite-transmited signal takes to reach the receiver/user, $tau$. We first model the code and carrier phase pseudorange measurements are modelled separately.
+Let us start with the most fundamental concept in GNSS: the time $tau$ that the satellite-transmitted signal takes to reach the receiver. We first model the code and carrier phase pseudorange measurements are modelled separately.
 
-== Code phase pseudorange measurement
+== Code pseudorange measurement
 
 Considering that the GNSS signals are propagating at the speed of light #cite(<teunissenSpringerHandbookGlobal2017>, supplement: "p. 5"), we have:
 
@@ -203,7 +203,7 @@ Finally, the scintillation signal can be modelled as
 
 $ h (t) = |h (t)| e^(j phi.alt_s (t)) $
 
-= Phase screen model
+= The phase screen theory
 
 // #align(center, block(
 //   fill: luma(230),
@@ -211,12 +211,17 @@ $ h (t) = |h (t)| e^(j phi.alt_s (t)) $
 //   radius: 4pt,
 // )[The phase screen model defined a complex field, $psi$, from which $h(t)$ can be derived.])
 
+== Fundamentals of electromagnetic wave propagation
+
+
+
+== Phase screen realization
+
 Let us assume that
 - The phase screen model is used to model equatorial scintillation, which is caused by irregularities that are highly elongated along the geomagnetic field lines @jiaoScintillationSimulationEquatorial2017;
 - The electromagnetic wave is simplified to a plane wave propagating through the phase screen realization, which is defined in a two-dimensional space @jiaoScintillationSimulationEquatorial2017:
   - $x$ (in meters): distance from the phase screen in the propagation direction @jiaoScintillationSimulationEquatorial2017, @xuTwoparameterMultifrequencyGPS2020;
   - $y$ (in meters): geometric eastward direction @jiaoScintillationSimulationEquatorial2017, i.e., the field-aligned direction @xuTwoparameterMultifrequencyGPS2020. It is assumed that this direction is transverse to $x$ #cite(<jiaoLowlatitudeIonosphericScintillation2017>, supplement: "p. 52");
-== Phase screen realization
   
 Let $psi (x, y)$ be the complex field representing #text(fill: blue)[principal] (i.e., scalar) component of the electromagnetic wave @rinoCompactMultifrequencyGNSS2018. Considering that the propagation of the electromagnetic wave in the Earth's ionosphere is transparent for the GNSS frequency band, one can state that it is governed parabolic wave equation (PWE). Once the scalar form of the PWE is sufficient to characterize the complex modulation impairing the plane wave @rinoCompactMultifrequencyGNSS2018, we have that:
 
