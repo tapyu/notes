@@ -20,7 +20,7 @@
 }
 
 #show: arkheion.with(
-  title: "A Gentle Introduction to the Phase Screen Model",
+  title: "Phase Screen Model for Physics-nonskilled Engineers",
   authors: (
     (name: "Rubem Vasconcelos Pacelli", email: "rubem.engenharia@gmail.com", affiliation: "Department of Teleinformatics", orcid: "0000-0001-5933-8565"),
     // (name: "Author 2", email: "user@domain.com", affiliation: "Company"),
@@ -38,7 +38,7 @@
 
 Let us start with the most fundamental concept in GNSS: the time $tau$ that the satellite-transmitted signal takes to reach the receiver. We first model the code and carrier phase pseudorange measurements are modelled separately.
 
-== Code pseudorange measurement
+== Code phase pseudorange measurement
 
 Considering that the GNSS signals are propagating at the speed of light #cite(<teunissenSpringerHandbookGlobal2017>, supplement: "p. 5"), we have:
 
